@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PaymentController {
 
 	
-	private static final String VAL = "dockerization with jenkins";
+	private static final String VAL = "dockerization with jenkins and building images";
 
 	@RequestMapping("/docker")
 	public String dockerGet() {
